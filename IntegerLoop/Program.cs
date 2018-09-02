@@ -2,11 +2,13 @@
 
 namespace IntegerLoop
 {
-    class Program
+    public static class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            // TODO: Print even integers from 0 to 50.
+
+            Console.ReadLine();
         }
     }
 }
