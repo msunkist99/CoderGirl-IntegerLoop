@@ -7,7 +7,8 @@ namespace IntegerLoop
         public static void Main()
         {
             // TODO: Print even integers from 0 to 50.
-            for (int i = 0; i < 51; i++)
+            // note that zero is not an even number
+            for (int i = 1; i < 51; i++)
             {
                 if (i % 2 == 0)
                 {
